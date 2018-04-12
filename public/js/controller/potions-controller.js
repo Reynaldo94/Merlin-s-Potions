@@ -1,4 +1,4 @@
-angular.module('myApp').controller('PotionsController',function(){
+angular.module('myApp').controller('PotionsController',function($scope,$http){
 
 	
 
