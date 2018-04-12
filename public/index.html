@@ -14,8 +14,8 @@
 			<h1>Potions</h1>
 
 			<div class="row">
-				<div class="col-md-4" ng-repeat="x in pocoes.potions">
-					<img src="img/{{x.image}}" class="img-produto">
+				<div class="col-md-4 col-xs-6" ng-repeat="x in pocoes.potions">
+					<a href=""><img src="img/{{x.image}}" class="img-responsive img-produto"></a>
 					<h3 class=" titulo-produto">{{x.name}} <span class="preco">${{x.price}}</span></h3>
 				</div>
 			</div>
