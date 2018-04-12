@@ -1,6 +1,16 @@
 @charset "utf-8";
 
+/*----------------------------------------*/
+/*corpo*/
 .img-produto{
 	height:100px; 
 	width:100px;
+}
+
+.titulo-produto{
+	font-size: 15px;
+}
+
+.preco{
+	color: orange;
 }

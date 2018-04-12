@@ -9,18 +9,18 @@
 <body>
 
 	<div class="container">
-		
+<!-- --------------------------------------------------------------------		 -->
 		<section id=corpo ng-controller="PotionsController">
 			<h1>Potions</h1>
 
 			<div class="row">
 				<div class="col-md-4" ng-repeat="x in pocoes.potions">
 					<img src="img/{{x.image}}" class="img-produto">
-					<h3>{{x.name}} <span>{{x.price}}</span></h3>
+					<h3 class=" titulo-produto">{{x.name}} <span class="preco">{{x.price}}</span></h3>
 				</div>
 			</div>
 		</section>		
-			
+<!-- ---------------------------------------------------------------------------			 -->
 	</div> <!-- container geral -->
 
 
