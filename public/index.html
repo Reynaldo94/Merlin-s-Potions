@@ -10,13 +10,13 @@
 
 	<div class="container">
 		
-		<section id=corpo>
+		<section id=corpo ng-controller="PotionsController">
 			<h1>Potions</h1>
 
 			<div class="row">
-				<div class="col-md-4">
-					<a><img src="{{.image}}"></a>
-					<h3>{{.name}} <span>{{.price}}</span></h3>
+				<div class="col-md-4" ng-repeat="x in pocoes.potions">
+					<img src="img/{{x.image}}" class="img-produto">
+					<h3>{{x.name}} <span>{{x.price}}</span></h3>
 				</div>
 			</div>
 		</section>		
