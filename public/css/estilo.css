@@ -22,3 +22,18 @@ body{
 .preco{
 	color: orange;
 }
+
+/*----------------------------------------*/
+/*rodape*/
+
+a.logos> img{ /*imagens das redes sociais*/
+	height:25px; 
+	width:25px;
+}
+
+a.link-rodape{
+	font-family: 'Oswald';
+	text-transform: uppercase;
+	color:orange;
+	display: block;
+}
