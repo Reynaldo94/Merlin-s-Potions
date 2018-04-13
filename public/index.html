@@ -6,23 +6,38 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
+     
+    
+    	
+
 </head>
 <body>
 
-	
+		
 		<section id=corpo ng-controller="PotionsController">
 			<div class="container">
 				<h1>Potions</h1>
 
 				<div class="row">
-					<div ng-click="carregaLightbox(x.id);" class="col-md-4 col-xs-6" ng-repeat="x in pocoes.potions">
-						<img src="img/{{x.image}}" class="img-responsive img-produto">
-						<h3 class=" titulo-produto">{{x.name}} <span class="preco">${{x.price}}</span></h3>			
+					<div ng-click="carregaLightbox(x.id);"  class="col-md-4 col-xs-6" ng-repeat="x in pocoes.potions">
+						<a href="" ng-click="showme=true" ><img src="img/{{x.image}}" class="img-responsive img-produto"></a>
+						<h3 class=" titulo-produto">{{x.name}} <span class="preco">${{x.price}}</span></h3>	
+
+						<div ng-show="showme" class="conteudo">
+						<a href="" ng-click="showme=false">Fechar</a>     
+						<h1>teste</h1>
+										    
+						</div>
+						<div ng-show="showme" id="fade" class="overlay">
+					    </div>	
 					</div>
 				</div>
 			</div> <!-- container geral -->	
+
 		</section>	
+
 		
+
 
 		<!-- fim corpo -->
 		
@@ -79,17 +94,10 @@
 			</div> <!-- container rodape -->
 		</footer>
 
+						
 	
- <div id="lightbox" ng-show="exibirLightbox == true" class="conteudo">
-    <a href="javascript:void(0)" onclick="Fechar(1);">Fechar</a>
-    {{valorLightbox.name}}
-    <img class="img-responsive img-potions" src="_imagens/aging-potion.png" >     
-  </div>
-
-
-
-
 	<script src="js/lib/angular.min.js"></script>
+
     <script src="js/services/main.js"></script>
     <script src="js/controller/potions-controller.js"></script>
     <script src="js/funcoes.js"></script>
