@@ -6,21 +6,12 @@ angular.module('myApp').controller('PotionsController',function($scope,$http){
 
 			$scope.pocoes=dados;
 
+
 		});
 
 	}
 
 	$scope.importar();
-
-	$scope.valorLightbox = undefined;
-	$scope.exibirLightbox = false;
-
-	$scope.carregaLightbox = function(idPocao){
-		$scope.valorLightbox = $scope.pocoes.potions[idPocao];
-		console.log($scope.valorLightbox);
-		//exibir o lightbox
-		// exibirLightbox = true;
-	}
 
 
 
