@@ -73,6 +73,9 @@ body{
             overflow: auto;
         }
 
+        #botao-fechar{
+        	float: right;
+        }
        
         .produto-lightbox{
         	height:260px; 
@@ -84,9 +87,7 @@ body{
         	font-weight: bold;
         }
 
-        #descricao-produto{
-        	margin-top: -30px;
-        }
+       
 
         #preco-descricao{
         	color:orange;
