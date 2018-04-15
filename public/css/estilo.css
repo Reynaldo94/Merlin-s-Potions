@@ -62,10 +62,10 @@ body{
         .conteudo {
             /*display: none;*/
             position: absolute;
-            top: 25%;
+            top: 8%;
             left: 25%;
             width: 50%;
-            height: 50%;
+            height: 75%;
             padding: 16px;
             border: 2px solid gray;
             background-color: white;
@@ -73,8 +73,13 @@ body{
             overflow: auto;
         }
 
+        #descricao > p{
+        	margin:0;
+        }
+
         #botao-fechar{
         	float: right;
+        	font-family:'Oswald', sans-serif;
         }
        
         .produto-lightbox{
