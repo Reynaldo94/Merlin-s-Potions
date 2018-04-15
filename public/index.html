@@ -27,16 +27,29 @@
 
 						<!-- conteudo lightbox -->
 						<div ng-show="showme" class="conteudo"> 
-								<a href="" ng-click="showme=false">Fechar</a>     
-								<h1>teste</h1>					    
-						</div>
+								<a href="" ng-click="showme=false" id="botao-fechar">X</a>
+								<div class="row">
+									<div class="col-md-6">     
+										<img src="img/{{x.image}}" class="produto-lightbox">
+									</div>
+									<div class="col-md-6" id=descricao-produto>     
+										<h1 class="titulo-descricao">{{x.name}}</h1>
+										<h1 class="titulo-descricao">Use/Efects</h1>	
+										<p>{{x.effect}}</p>		
+										<h1 class="titulo-descricao">Ingredents</h1>
+										<p>{{x.ingredients}}</p>
+										<h1 class="titulo-descricao">Price</h1>
+										<p id="preco-descricao">${{x.price}}</p>
+										<button class="btn btn-danger" id="botao-descricao">Add to cart</button>
+									</div>
+								</div>		    
+						</div>	
 						<!-- conteudo lightbox -->
 
 						<!-- fundo lightbox -->	
 						<div ng-show="showme"  id="fade" class="overlay"> 
 						</div>
 						<!-- fundo lightbox -->
-
 					</div>
 				</div> <!-- div row section -->
 			</div> <!-- container section -->	
