@@ -37,7 +37,7 @@
 										<h1 class="titulo-descricao">Use/Efects</h1>	
 										<p>{{x.effect}}</p>		
 										<h1 class="titulo-descricao">Ingredents</h1>
-										<p>{{x.ingredients}}</p>
+										<p ng-repeat="y in x.ingredients">{{y}}</p><!-- ng-repeat para percorrer o array de ingredentes -->
 										<h1 class="titulo-descricao">Price</h1>
 										<p id="preco-descricao">${{x.price}}</p>
 										<button class="btn btn-danger" id="botao-descricao">Add to cart</button>
@@ -53,7 +53,6 @@
 					</div>
 				</div> <!-- div row section -->
 			</div> <!-- container section -->	
-
 		</section>	
 
 		 
