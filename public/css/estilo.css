@@ -23,6 +23,17 @@
     }
 }
 
+@media screen and (min-width: 767px){
+
+    #form-navegacao{
+        /*display: block;*/
+        position: absolute;
+        top: 30px;
+        left: 270px;
+    }
+}
+
+
 body{
 	font-family: 'droid';
 	margin: 0px;
