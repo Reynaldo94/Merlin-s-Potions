@@ -16,6 +16,11 @@
 		position: relative;
 		bottom:80px;
 	}
+
+    #img-logo{
+        display: block;
+        margin: 0 auto;
+    }
 }
 
 body{
@@ -27,10 +32,14 @@ body{
 .titulo{
 	font-family: 'Oswald',sans-serif;
 }
+/*-------------------------------------------*/
+/*barra de navegação*/
+
+
 /*----------------------------------------*/
 /*corpo*/
 #corpo{
-    margin-top:100px; 
+    margin-top:150px; 
 }
 
 .img-produto{
