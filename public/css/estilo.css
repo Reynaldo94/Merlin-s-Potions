@@ -21,15 +21,25 @@
         display: block;
         margin: 0 auto;
     }
+
+    #destaque-navegacao{
+        position: relative;
+        left: 0px;
+        background-color: #cecece;
+        text-align: center;
+    }
+
+    h4#texto-destaque{
+        color: black;
+    }
 }
 
 @media screen and (min-width: 767px){
 
     #form-navegacao{
-        /*display: block;*/
         position: absolute;
         top: 30px;
-        left: 270px;
+        left: 300px;
     }
 }
 
@@ -37,7 +47,7 @@
 body{
 	font-family: 'droid';
 	margin: 0px;
-
+    padding: 0px;
 }
 
 .titulo{
@@ -46,12 +56,24 @@ body{
 /*-------------------------------------------*/
 /*barra de navegação*/
 
+#destaque-navegacao{
+   
+    position: absolute;
+    right: 400px;
+    margin-top: 15px;
+
+}
+
+#texto-destaque{
+    color: orange;
+}
+
+#input-navegacao{
+    width: 250px;
+}
 
 /*----------------------------------------*/
 /*corpo*/
-#corpo{
-    margin-top:150px; 
-}
 
 .img-produto{
 	height:100px; 
