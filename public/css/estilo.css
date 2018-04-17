@@ -32,6 +32,12 @@
     h4#texto-destaque{
         color: black;
     }
+
+    #cesta{
+        position: relative;
+        bottom: 89px;
+        margin-left: -320px;
+    }
 }
 
 @media screen and (min-width: 767px){
@@ -39,7 +45,7 @@
     #form-navegacao{
         position: absolute;
         top: 30px;
-        left: 300px;
+        left: 360px;
     }
 }
 
@@ -56,10 +62,14 @@ body{
 /*-------------------------------------------*/
 /*barra de navegação*/
 
+#img-logo{
+    margin-left: 50px;
+}
+
 #destaque-navegacao{
    
     position: absolute;
-    right: 400px;
+    right: 300px;
     margin-top: 15px;
 
 }
@@ -72,6 +82,28 @@ body{
     width: 250px;
 }
 
+#cesta{
+    position: relative;
+    left: 630px;
+}
+
+#cesta img{
+    height:50px; 
+    width:41px;
+}
+
+#cesta h4{
+    text-transform: uppercase;
+    font-family: "Oswald",sans-serif;
+    color: #cecece;
+    display: inline;
+    font-size: 15px;
+}
+
+#cesta span{
+    color: orange;
+    font-size: 20px;
+}
 /*----------------------------------------*/
 /*corpo*/
 
