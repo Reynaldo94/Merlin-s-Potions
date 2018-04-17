@@ -38,6 +38,11 @@
         bottom: 89px;
         margin-left: -320px;
     }
+
+    #input-navegacao{
+        position: relative;
+        left: 55px;
+    }
 }
 
 @media screen and (min-width: 767px){
@@ -103,6 +108,12 @@ body{
 #cesta span{
     color: orange;
     font-size: 20px;
+}
+
+#buttom-navegacao{
+    position: absolute;
+    top: 19px;
+    left: 5px;
 }
 /*----------------------------------------*/
 /*corpo*/
