@@ -39,10 +39,27 @@
         margin-left: -320px;
     }
 
-    #input-navegacao{
+    /*#input-navegacao{
         position: relative;
         left: 55px;
+       
+    }*/
+
+    #barra-navegacao{
+        position: relative;
+        top: -175px;
+        background-color: purple;
+        border:none;
     }
+
+    #form-navegacao{
+        position: relative;
+        top: -166px;
+        left: 53px;
+        background-color: white;
+    }
+
+
 }
 
 @media screen and (min-width: 767px){
@@ -76,16 +93,15 @@ body{
     position: absolute;
     right: 300px;
     margin-top: 15px;
-
 }
 
 #texto-destaque{
     color: orange;
 }
 
-#input-navegacao{
+/*#input-navegacao{
     width: 250px;
-}
+}*/
 
 #cesta{
     position: relative;
@@ -115,6 +131,13 @@ body{
     top: 19px;
     left: 5px;
 }
+
+
+
+
+/*#barra-navegacao li>a{
+    color: white;
+}*/
 /*----------------------------------------*/
 /*corpo*/
 
