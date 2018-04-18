@@ -132,8 +132,6 @@ body{
     background-color: #523468;
 }
 
-
-
 #img-logo{
     margin-left: 50px;
 }
@@ -192,7 +190,8 @@ body{
 
 #login span{
     font-style: italic;
-    color: 
+    color: white;
+    font-size: 12px;
 }
 
 #login a{
