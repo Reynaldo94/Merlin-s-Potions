@@ -7,15 +7,10 @@
 
 @media screen and (max-width: 767px){
 
-	#rodape1{
-		position: relative;
-		top:215px;
-	}
-
-	#rodape2{
-		position: relative;
-		bottom:80px;
-	}
+    #corpo h1{
+        text-align: center;
+    }
+	
 
     #img-logo{
         display: block;
@@ -39,12 +34,6 @@
         margin-left: -320px;
     }
 
-    /*#input-navegacao{
-        position: relative;
-        left: 55px;
-       
-    }*/
-
     #barra-navegacao{
         position: relative;
         top: -175px;
@@ -57,6 +46,16 @@
         top: -166px;
         left: 53px;
         background-color: white;
+    }
+
+    #rodape1{
+        position: relative;
+        top:215px;
+    }
+
+    #rodape2{
+        position: relative;
+        bottom:80px;
     }
 
 
@@ -89,6 +88,7 @@ body{
 
 #cabecalho2{
     background-color: #523468;
+    padding: 5px;
 }
 
 #cabecalho2 a{
@@ -142,7 +142,32 @@ body{
     border: none;
 }
 
+.navbar-nav{
+    margin-left: 100px;
+}
 
+.navbar-right{
+    margin-right:225px; 
+}
+
+.navbar-right li{
+    margin-right:30px; 
+}
+
+.navbar-right span{
+    position: relative;
+    right: 125px;
+    top: 15px;
+    color: white;
+    font-style: italic;
+    font-size: 12px;
+    
+}
+
+#cabecalho2 li:hover{
+    background-color: #462d58;
+    border-radius: 7px;
+}
 /*----------------------------------------*/
 /*corpo*/
 
