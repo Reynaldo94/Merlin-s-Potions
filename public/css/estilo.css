@@ -34,8 +34,12 @@
         margin-left: -320px;
     }
 
+    #cabecalho2 li{
+        border-bottom: 1px solid #6a5483;
+    }
+
       #cabecalho2 li:hover{
-        width: 300px;
+        width:100%;
     
     }
 
@@ -53,13 +57,13 @@
         background-color: white;
     }
 
-    .navbar-nav{
+    /*.navbar-nav{
     margin-left:-96px;
     margin-right: 85px;
-    }
+    }*/
 
-    .navbar-right ul{
-        display: inline-block;
+    #login{
+        margin-left:0px; 
     }
    
 
@@ -97,6 +101,7 @@ body{
 }
 /*-------------------------------------------*/
 /*barra de navegação*/
+
 #cabecalho1{
     background-color: white;
 }
@@ -104,6 +109,7 @@ body{
 #cabecalho2{
     background-color: #523468;
     padding: 5px;
+    font-style: italic;
 }
 
 #cabecalho2 a{
@@ -157,34 +163,42 @@ body{
     border: none;
 }
 
-.navbar-nav{
+/*.navbar-nav{
     position: relative;
     left: 100px;
+}*/
+
+#login{
+    margin-top:5px; 
+    margin-right:150px; 
+    padding: 10px;
 }
 
-.navbar-right{
-    margin-right:225px; 
-}
-
-.navbar-right li{
-    margin-right:30px; 
-}
-
-.navbar-right span{
-    position: relative;
-    right: 125px;
-    top: 15px;
-    color: white;
+#login span{
     font-style: italic;
-    font-size: 12px;
-    
+    color: 
 }
+
+#login a{
+    margin: 10px;
+    padding: 10px;
+}
+
+#login a:hover{
+    text-decoration: none;
+     background-color: #462d58;
+    border-radius: 7px;
+
+}
+
 
 #cabecalho2 li:hover{
     background-color: #462d58;
     border-radius: 7px;
 
 }
+
+
 /*----------------------------------------*/
 /*corpo*/
 
