@@ -9,7 +9,7 @@
 
 	#rodape1{
 		position: relative;
-		top:230px;
+		top:215px;
 	}
 
 	#rodape2{
@@ -243,6 +243,10 @@ a.link-rodape{
 	text-transform: uppercase;
 	color:#d73a1e;
 	display: block;
+}
+
+#direitos-reservados{
+    color: #666e76;
 }
 
 #form-rodape{
