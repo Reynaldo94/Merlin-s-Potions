@@ -84,6 +84,14 @@ body{
 /*-------------------------------------------*/
 /*barra de navegação*/
 
+#cabecalho2{
+    background-color: purple;
+}
+
+#cabecalho2 a{
+    color: white;
+}
+
 #img-logo{
     margin-left: 50px;
 }
