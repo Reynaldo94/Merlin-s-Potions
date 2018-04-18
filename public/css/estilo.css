@@ -57,10 +57,10 @@
         background-color: white;
     }
 
-    /*.navbar-nav{
+    .navbar-nav{
     margin-left:-96px;
     margin-right: 85px;
-    }*/
+    }
 
     #login{
         margin-left:0px; 
@@ -101,6 +101,9 @@ body{
 }
 /*-------------------------------------------*/
 /*barra de navegação*/
+#cabecalho{
+    margin: 0px;
+}
 
 #cabecalho1{
     background-color: white;
@@ -108,8 +111,8 @@ body{
 
 #cabecalho2{
     background-color: #523468;
-    padding: 5px;
     font-style: italic;
+
 }
 
 #cabecalho2 a{
@@ -122,7 +125,6 @@ body{
 }
 
 #destaque-navegacao{
-   
     position: absolute;
     right: 300px;
     margin-top: 15px;
@@ -163,10 +165,10 @@ body{
     border: none;
 }
 
-/*.navbar-nav{
+.navbar-nav{
     position: relative;
     left: 100px;
-}*/
+}
 
 #login{
     margin-top:5px; 
@@ -192,13 +194,16 @@ body{
 }
 
 
+
 #cabecalho2 li:hover{
     background-color: #462d58;
     border-radius: 7px;
 
 }
 
-
+.navbar-header .navbar-nav>li>a{
+    color: purple;
+}
 /*----------------------------------------*/
 /*corpo*/
 
