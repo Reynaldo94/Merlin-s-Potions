@@ -142,8 +142,17 @@ body{
     margin-left: 50px;
 }
 
-#form-navegacao span{
-    color: orange;
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+    color: #d73a1e;
+}
+.left-inner-addon input.form-control {
+    padding-left: 30px;
 }
 
 #destaque-navegacao{    
@@ -223,8 +232,6 @@ body{
     border-radius: 7px;
 
 }
-
-
 
 /*----------------------------------------*/
 /*corpo*/
