@@ -89,7 +89,9 @@
 
 					<!-- conteudo lightbox -->
 					<div ng-show="showme" class="conteudo"> 
-							<a href="" ng-click="showme=false" id="botao-fechar">X</a>
+							<button ng-click="showme=false" type="button" class="close" aria-label="Close">
+							  <span aria-hidden="true">&times;</span>
+							</button>
 							<div class="row">
 								<div class="col-md-6">     
 									<img src="img/{{x.image}}" class="produto-lightbox">
