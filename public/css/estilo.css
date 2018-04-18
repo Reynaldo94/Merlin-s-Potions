@@ -83,6 +83,9 @@ body{
 }
 /*-------------------------------------------*/
 /*barra de navegação*/
+#cabecalho1{
+    background-color: white;
+}
 
 #cabecalho2{
     background-color: #523468;
@@ -108,9 +111,6 @@ body{
     color: #d73a1e;
 }
 
-/*#input-navegacao{
-    width: 250px;
-}*/
 
 #cesta{
     position: relative;
@@ -139,14 +139,10 @@ body{
     position: absolute;
     top: 19px;
     left: 5px;
+    border: none;
 }
 
 
-
-
-/*#barra-navegacao li>a{
-    color: white;
-}*/
 /*----------------------------------------*/
 /*corpo*/
 
