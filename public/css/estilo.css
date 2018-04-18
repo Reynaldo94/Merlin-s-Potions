@@ -119,12 +119,26 @@ body{
     color: white;
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: purple;
+}
+
+#buttom-navegacao:hover{
+    border:1px solid #d73a1e;
+    background-color: white;
+}
+
+#buttom-navegacao:active{
+    background-color: #523468;
+}
+
+
 
 #img-logo{
     margin-left: 50px;
 }
 
-#destaque-navegacao{
+#destaque-navegacao{    
     position: absolute;
     right: 300px;
     margin-top: 15px;
@@ -201,9 +215,8 @@ body{
 
 }
 
-.navbar-header .navbar-nav>li>a{
-    color: purple;
-}
+
+
 /*----------------------------------------*/
 /*corpo*/
 
