@@ -34,6 +34,11 @@
         margin-left: -320px;
     }
 
+      #cabecalho2 li:hover{
+        width: 300px;
+    
+    }
+
     #barra-navegacao{
         position: relative;
         top: -175px;
@@ -47,6 +52,16 @@
         left: 53px;
         background-color: white;
     }
+
+    .navbar-nav{
+    margin-left:-96px;
+    margin-right: 85px;
+    }
+
+    .navbar-right ul{
+        display: inline-block;
+    }
+   
 
     #rodape1{
         position: relative;
@@ -143,7 +158,8 @@ body{
 }
 
 .navbar-nav{
-    margin-left: 100px;
+    position: relative;
+    left: 100px;
 }
 
 .navbar-right{
@@ -167,6 +183,7 @@ body{
 #cabecalho2 li:hover{
     background-color: #462d58;
     border-radius: 7px;
+
 }
 /*----------------------------------------*/
 /*corpo*/
