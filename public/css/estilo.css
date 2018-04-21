@@ -125,16 +125,16 @@ body{
     color: white;
 }
 
-#buttom-navegacao span{
+#button-navegacao span{
     background-color: purple;
 }
 
-#buttom-navegacao:hover{
+#button-navegacao:hover{
     border:1px solid #d73a1e;
     background-color: white;
 }
 
-#buttom-navegacao:active{
+#button-navegacao:active{
     background-color: #523468;
 }
 
@@ -189,7 +189,7 @@ body{
     font-size: 20px;
 }
 
-#buttom-navegacao{
+#button-navegacao{
     position: absolute;
     top: 19px;
     left: 5px;
