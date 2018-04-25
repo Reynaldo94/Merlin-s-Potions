@@ -6,7 +6,7 @@
 
 ### Os arquivos de códigos se encontram na pasta "public".
 
-
+## O que é o projeto?
 
 O projeto é uma demonstração de uma loja on-line onde os produtos são poções. Ele consiste
 em uma página e teve o objetivo de mostrar o funcionamento do HTML,CSS,
