@@ -22,7 +22,12 @@ do Angular junto com o CSS que as informações contidas nela funcionam da mesma
 ## Para funcionar...
 Siga os passos para colocar a página em funcionamento:
 * Abra o prompt de comando
+
 * Digite cd + caminho da pasta "Merlins_potion"
+![cmd1](https://user-images.githubusercontent.com/8854900/39222036-be82889e-4810-11e8-86c5-8f2515e0c275.JPG)
+
 * Digite npm start
+
 * Vá até o browser
+
 * Na barra de endereço coloque: https://localhost:3000
