@@ -1,4 +1,5 @@
 # Merlin-s-Potions
+![merlins](https://user-images.githubusercontent.com/8854900/39221233-23f38de0-480c-11e8-82b2-7431b0912046.JPG)
 
 ### Os arquivos de códigos se encontram na pasta "public".
 
