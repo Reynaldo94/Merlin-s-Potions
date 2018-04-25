@@ -25,6 +25,7 @@ do Angular junto com o CSS que as informações contidas nela funcionam da mesma
 ## Para funcionar...
 
 Siga os passos para colocar a página em funcionamento:
+* Instale o Node.js
 
 * Abra o prompt de comando
 
