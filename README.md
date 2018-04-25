@@ -27,6 +27,7 @@ Siga os passos para colocar a página em funcionamento:
 ![cmd1](https://user-images.githubusercontent.com/8854900/39222036-be82889e-4810-11e8-86c5-8f2515e0c275.JPG)
 
 * Digite npm start
+![cmd2](https://user-images.githubusercontent.com/8854900/39222138-6b1cac74-4811-11e8-9e36-9598b0712d96.JPG)
 
 * Vá até o browser
 
