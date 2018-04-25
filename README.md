@@ -1,30 +1,30 @@
 # Merlin-s-Potions
-!
+
 ![merlins](https://user-images.githubusercontent.com/8854900/39221233-23f38de0-480c-11e8-82b2-7431b0912046.JPG)
 
 
 
-### Os arquivos de códigos se encontram na pasta "public".
+### Os arquivos de cÃ³digos se encontram na pasta "public".
 
 
 
-O projeto é uma demonstração de uma loja on-line onde os produtos são poções. Ele consiste
-em uma página e teve o objetivo de mostrar o funcionamento do HTML,CSS,
-Bootstrap e Angular em conjunto. Nele temos um arquivo JSON que contém as 
-informações de cada produto(poções), com o Angular tivemos a possibilidade de acessar 
-esse arquivo e exibir na página.
-A parte importante é que não foi preciso repetir um bloco de código para cada produto, 
-usando as diretivas do Angular bastou escrever o bloco somente uma vez e o próprio
-Angular ficou encarregado de exibir as informações de acordo com a quantidade de produtos
-que estivesse no arquivo JSON, com isso facilitamos a manutenção do código, conseguimos
+O projeto Ã© uma demonstraÃ§Ã£o de uma loja on-line onde os produtos sÃ£o poÃ§Ãµes. Ele consiste
+em uma pÃ¡gina e teve o objetivo de mostrar o funcionamento do HTML,CSS,
+Bootstrap e Angular em conjunto. Nele temos um arquivo JSON que contÃ©m as 
+informaÃ§Ãµes de cada produto(poÃ§Ãµes), com o Angular tivemos a possibilidade de acessar 
+esse arquivo e exibir na pÃ¡gina.
+A parte importante Ã© que nÃ£o foi preciso repetir um bloco de cÃ³digo para cada produto, 
+usando as diretivas do Angular bastou escrever o bloco somente uma vez e o prÃ³prio
+Angular ficou encarregado de exibir as informaÃ§Ãµes de acordo com a quantidade de produtos
+que estivesse no arquivo JSON, com isso facilitamos a manutenÃ§Ã£o do cÃ³digo, conseguimos
 deixa-lo mais limpo e se precisasse remover ou adicionar um produto, bastaria adicionar
 
-no próprio JSON. Lembrando também que temos uma lightbox feita com as ferramentas
-do Angular junto com o CSS que as informações contidas nela funcionam da mesma maneira.
+no prÃ³prio JSON. Lembrando tambÃ©m que temos uma lightbox feita com as ferramentas
+do Angular junto com o CSS que as informaÃ§Ãµes contidas nela funcionam da mesma maneira.
 
 ## Para funcionar...
 
-Siga os passos para colocar a página em funcionamento:
+Siga os passos para colocar a pÃ¡gina em funcionamento:
 
 * Abra o prompt de comando
 
@@ -36,9 +36,9 @@ Siga os passos para colocar a página em funcionamento:
 
 ![cmd2](https://user-images.githubusercontent.com/8854900/39222138-6b1cac74-4811-11e8-9e36-9598b0712d96.JPG)
 
-* Vá até o browser
+* VÃ¡ atÃ© o browser
 
 
 
-* Na barra de endereço coloque: https://localhost:3000
+* Na barra de endereÃ§o coloque: https://localhost:3000
 
